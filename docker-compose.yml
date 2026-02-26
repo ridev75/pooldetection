@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  app-piletas:
+    image: localhost/detector-piletas:v1
+    ports:
+      - "8501:8501"
+    restart: always
